@@ -1,0 +1,264 @@
+/*QUERIES 1200px*/
+@media screen and (max-width:1200px){
+    /*habilidades*/
+    .hab .card p{
+        margin: 5px;
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 22px;
+        padding: 15px;
+    }
+    /*contatos*/
+    .contatos .img-Cont{
+     width: 95%;
+    }
+}
+/*QUERIES 960px*/
+@media screen and (max-width:960px){
+    .home{
+        background-image: url(../img/postQueries.png);
+    }
+    .menuPrincipal ul li{
+        display: none;
+    }
+    /*header*/
+    header .btn{
+       display: none;
+   }
+   .icon-menu .menu{
+       display: block;
+   }
+   /*sobre*/
+   .img-sobre .imgSobreMim{
+    width: 90%;
+    height: auto;
+   }
+   .text-sobre h2{  
+    font-size: 2rem;
+   }
+   /*habilidades*/
+   .card-grupo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 10px;
+   }
+   .card-grupo .card{
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+   }
+   .card ion-icon{
+    font-size: 50px;
+    margin: 15px auto;
+  }
+  .card p{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 20px;
+    padding: 20px;
+   }
+   /*footer*/
+}
+/*QUERIES 768px*/
+@media screen and (max-width:768px){
+    .sobre{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sobre .img-sobre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: auto;    
+    }
+    .sobre .img-sobre .imgSobreMim{ 
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 0px;
+    }
+    .sobre .text-sobre{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+        height: auto;
+    }
+    .text-sobre h2{  
+    font-size: 3rem;
+    }
+    /*habilidades*/
+    .hab{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-grupo{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 10px;
+    }
+    .card-grupo .card{
+        background-color: #202020;
+        width: 70%;
+        height: 510px;  
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        text-align: center;
+        box-shadow: 5px 5px 1px royalblue;
+    }
+    .card ion-icon{
+        font-size: 80px;
+        margin: 25px auto;
+    }
+    /*contatos*/
+   .contatos .img-cont{
+    display: none;
+    }
+    .contatos .contato{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+    }
+}
+/*QUERIES 600px*/
+@media screen and (max-width:768px){
+    .header-main{
+      width: 90%;
+      height: 65vh;
+      top: 30%;    
+    }
+    .header-main h1{ 
+        color: #fff;
+        margin: 20px 0px 20px;
+        font-size: 3.2rem;  
+    }
+    .header-main h3{  
+        color: #fff;
+        font-size: 1rem;
+        margin-bottom: 50px; 
+    } 
+}
+/*QUERIES 414px*/
+@media screen and (max-width:414px){
+    .home{
+      background-image: none;
+      background-color: #151515;
+    }
+   .logo{
+       font-size: 1.3rem;
+       padding-left: 10px;
+       margin-top: -10px;
+    }
+    .header-main{
+        width: 90%;
+        height: 75%;
+        top: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }       
+    .header-main h4{ 
+        padding-top: 2rem;
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+    .header-main h1{ 
+        font-size: 2.5rem;  
+    }
+    .header-main h3{ 
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    .social-media{
+        flex-flow: row wrap;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    /*sobre*/
+    .text-sobre h2{  
+        font-size: 2rem; 
+    }
+    .text-sobre h3{
+        font-size: 1.4rem;
+    }
+    /*hab*/
+    .hab h2{
+        font-size: 2em;
+    }
+    .card-grupo .card{
+        background-color: #202020;
+        width: 90%;
+        height: 530px;  
+        border-radius: 20px;
+        margin: 10px;
+        position: relative;
+        text-align: center;
+        box-shadow: 5px 5px 1px royalblue;
+        align-items: center;
+        justify-content: center;
+    }
+    .card ion-icon{
+        font-size: 50px;
+        margin: 10px auto;
+    }
+    .card-grupo .card h5{
+        margin: 0px;
+        padding: 0px
+    }
+    .card p{
+        font-size: 0.7rem;
+        padding: 10px;
+    }
+    .card .btn btn-hab{
+        margin-top: 10px;
+        padding: 8px 10px;
+        font-size: 0.7rem;
+        font-weight: 200;
+    }
+    /*contatos*/
+    .contatos .contato h2{
+        font-size: 2em;
+        letter-spacing: 5px;
+        border-bottom: 1px solid #fff;
+    }
+    /*footer*/
+    footer{       
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    h5{
+        font-size: 2rem;
+        color: #fff;
+    }
+    .redesSociais ion-icon{
+        font-size: 1.8rem;
+    
+    }
+    .End{
+        width: 300px;
+        align-items: center;
+        padding: 10px;
+        margin-top: 5px;
+    }    
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Silva</title>
+    <link rel="stylesheet" href="css/jr.css">
+    <link rel="stylesheet" href="css/query-jr.css">
+</head>
+<body>
+    <section id="home" class="home">
+        <header class="cabecalho">
+            <nav class="menuPrincipal">
+                <h2 class="logo">Portfó<span>lio</span></h2>
+                <ul class="cabecalho-link">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre-mim">Sobre Mim</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+                <a href="#" class="btn">Subscrito</a>
+            </nav>
+        </header>
+        <!--Main Header-->
+        <div class="header-main">
+            <h4>Olá, meu nome é</h4>
+            <h1>Junior <span>Silva</span></h1>
+            <h3>Eu sou um desenvolvedor web</h3>         
+            <div class="social-media">
+                <a href="#">Linkedin</a>
+                <a href="#">Github</a>
+            </div>               
+        </div>
+    <!--Aside mobile-->
+    <aside>
+        <div class="icon-menu" onclick="abrirMenu()">
+            <div class="menu"><ion-icon name="menu-outline"></ion-icon></div>
+        </div><!--icon-menu"-->
+        <div id="barra-menu">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contatos</a></li> 
+                <a href="#" class="C-icon">Subscrito</a>
+            </ul>
+        </div>
+    </aside>
+    <!--Seção sobre mim-->
+    </section>
+    <section id="sobre" class="sobre">
+        <div class="img-sobre">
+            <img src="img/fundo-sobre.png" class="imgSobreMim">
+        </div>
+        <div class="text-sobre">       
+                <h2>Sobre-Mim</h2>
+                <h3>Desenvolvedor <span>& Designer</span></h3>
+                <p>Eu sou um desenvolvedor web front-end. Eu posso fornecer códigos limpos e imagem de design perfeito. E também fazer website mais & mais interativo e com animação web. E posso deixar seu site responsivo, e que ele acesse todos os usuários, independente dos seus aparelhos dispositivos</p>
+                <button type="button" class="btn butSobreMim">Vamos conversar</button>
+        </div>
+    </section>
+    <!--Seção habilidades-->
+    <section id="hab" class="hab">
+        <h2>Habilidades</h2>      
+        <div class="card-grupo">
+            <!--card 1--> 
+            <div class="card">
+                <ion-icon name="logo-html5" id="html"></ion-icon>
+                <h5>HTML</h5>
+                    <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação.</p>      
+                <button class=" btn btn-hab">Ler Mais</button>
+            </div>
+            <!--card 2-->
+            <div class="card">
+                <ion-icon name="logo-css3" id="css"></ion-icon>
+                <h5>CSS</h5>
+                <p>Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags (style). Também é possível, adicionar estilos adicionando um link para um arquivo CSS.</p>
+                <button class="btn btn-hab">Ler Mais</button>
+            </div>
+            <!--card 3-->
+            <div class="card">
+                <ion-icon name="logo-nodejs" id="js"></ion-icon>
+                <h5>JavaScript</h5>
+                <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World.</p>
+                <button class="btn btn-hab">Ler Mais</button>
+            </div>
+        </div><!--card-grupo-->
+    </section>
+    <!--Seção contatos-->
+    <section id="contatos" class="contatos">
+        <div class="contato">
+            <h2>Contatos</h2>         
+            <ion-icon name="mail-outline"></ion-icon>
+            <span>juniorsilva@hotmail.com</span>
+            <ion-icon name="call-outline"></ion-icon>
+            <span>+55 00 00000-0000</span>
+            <ion-icon name="logo-whatsapp"></ion-icon>
+            <span>+55 00 00000-0000</span>
+            <ion-icon name="location-outline"></ion-icon>
+            <span>São Paulo - SP</span>
+        </div>
+        <div class="img-cont">
+            <img src="img/img-c1.png" alt="Contatos" class="img-Cont">
+        </div>
+    </section>
+    <!--Seção footer-->
+    <footer>
+        <h5>Junior <span>Silva</span></h5>
+        <div class="redesSociais">
+        <a href="#" id="watsApp" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="#" id="watsApp" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"id="facebook" target="_blank"><ion-icon name="logo-github"></ion-icon></a> 
+        <a href="#" id="github" target="_blank"> <ion-icon name="logo-whatsapp"></ion-icon></a>   
+        <!--redes sociais-->        
+        </div>
+        <p class="End">©: José Ricardo S. T. Junior - 2023  😀  <span>Todos os direitos reservados</span> </p>                   
+    </footer>
+     !--Js-->
+    <script src="js/script-jr.js"></script>
+    <!--Icon externos-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
